@@ -1,4 +1,4 @@
-# 🌾 Smart Crop Recommendation System
+# Smart Crop Recommendation System
 
 > **Precision Agriculture Platform Recommending Optimal Crops Using Machine Learning & Soil Chemistry**
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Selecting the right crop for specific soil chemistry and meteorological conditions is critical for maximizing harvest yields and preventing soil exhaustion.
 
@@ -18,7 +18,7 @@ The **Smart Crop Recommendation System** uses an ensemble **Random Forest Classi
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart TD
@@ -31,7 +31,7 @@ flowchart TD
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **Multi-Factor Precision Agriculture:** Analyzes 7 vital soil and environmental metrics (N, P, K, Temperature, Relative Humidity, Soil pH, Precipitation).
 - **High-Accuracy ML Model:** Utilizes Random Forest classification achieving over 99% accuracy on unseen test splits.
@@ -41,7 +41,7 @@ flowchart TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 soil-project/
@@ -61,7 +61,7 @@ soil-project/
 
 ---
 
-## 🧪 Monitored Parameters
+## Monitored Parameters
 
 | Parameter | Unit | Agricultural Significance |
 | :--- | :--- | :--- |
@@ -71,11 +71,9 @@ soil-project/
 | **Temperature** | °C | Ambient regional growing temperature |
 | **Humidity** | % | Atmospheric relative humidity |
 | **pH** | Scale 0–14 | Soil acidity or alkalinity affecting nutrient availability |
-| **Rainfall** | mm | Annual / seasonal precipitation level |
+| **Rainfall** | mm | Annual / seasonal precipitation level | ---
 
----
-
-## ⚡ Quick Start & Installation
+## Quick Start & Installation
 
 ### 1. Prerequisites
 - Python 3.9 or higher
@@ -122,7 +120,7 @@ Open `frontend/index.html` in your web browser:
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 ### Predict Recommended Crop
 - **Endpoint:** `POST /predict`
@@ -148,6 +146,6 @@ Open `frontend/index.html` in your web browser:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
