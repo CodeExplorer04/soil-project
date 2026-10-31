@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Serialized model binary (can be committed or rebuilt via model.py)
+# model.pkl
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
